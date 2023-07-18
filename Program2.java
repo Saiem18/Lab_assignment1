@@ -5,7 +5,7 @@ public class Program2{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a,b,choice1;
+		int a,b,choices;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("1 = Arthmetic operator\n"
 				+ "2 = Assigment operator\n"
@@ -13,7 +13,7 @@ public class Program2{
 				+ "4 = Logical operator");
 		System.out.println("Select Operator Number");
 		choice1=sc.nextInt();
-		switch(choice1) {
+		switch(choices) {
 		case 1:
 			System.out.println("enter value of a");
 			a=sc.nextInt();
